@@ -1,0 +1,64 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./student.css">
+		<title>School Managment System</title>
+	</head>
+	<body class="center">
+		<div class="container center">
+			<form class="form ">
+				<!-- student name -->
+				<div class="from-control">
+					<label for="name">Student Namee: </label>
+					<input type="text" id="name" placeholder="jo aqra" />
+				</div>
+				<!-- student name -->
+
+				<!-- student id -->
+				<div class="from-control">
+					<label for="idNumber">Student IDnum:</label>
+					<input type="number" id="idNumber" placeholder="411420876" />
+				</div>
+				<!-- student id -->
+
+				<!-- student gdpa -->
+				<div class="from-control">
+					<label for="gdpa">Student GDPA :</label>
+					<input type="number" id="gdpa" placeholder="3.50" />
+				</div>
+				<!-- student gdpa -->
+			</form>
+
+				<button id="submit" type="submit">Add</button>
+
+			<table id="myTable">
+				<tr class="header">
+				  <th style="width:30%;">Name</th> 
+				  <th style="width:30%;">ID</th> 
+				  <th style="width:30%;">GDPA</th>
+				</tr>	
+				</table>
+
+				<button id="update" type="update">Update</button>
+                <label for="index">number of index </label>
+                <input type="number" id="index" />
+
+				<label for="Name">new name </label>
+                <input type="text" id="Name"  />
+				<label for="Id">new id </label>
+                <input type="number" id="Id" /> 
+				<label for="Gdpa">new gdpa </label>
+                <input type="number" id="Gdpa" />
+
+				<button id="delete" type="delete">delete</button>
+				<input type="delete" id="indDelete" value="delete" />
+		</div>
+		<script src="./students.js">
+		</script>
+		
+	</body>
+</html>
